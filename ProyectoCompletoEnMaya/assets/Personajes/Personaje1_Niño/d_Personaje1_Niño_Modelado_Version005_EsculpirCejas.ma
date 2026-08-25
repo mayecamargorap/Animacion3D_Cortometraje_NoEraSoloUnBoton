@@ -1,6 +1,6 @@
 //Maya ASCII 2027 scene
 //Name: e_Personaje1_Niño_Modelado_Version005_EsculpirCejas.ma
-//Last modified: Tue, Aug 25, 2026 12:10:33 AM
+//Last modified: Tue, Aug 25, 2026 12:14:15 AM
 //Codeset: 1252
 requires maya "2027";
 requires "mtoa" "5.6.2";
@@ -12,18 +12,18 @@ fileInfo "product" "Maya 2027";
 fileInfo "version" "2027";
 fileInfo "cutIdentifier" "202607171511-52c21617ee";
 fileInfo "osv" "Windows 11 Home Single Language v2009 (Build: 26200)";
-fileInfo "UUID" "B0DA9638-404A-C3AF-64DB-05853B1F1FC1";
+fileInfo "UUID" "3ACC2622-4793-3E48-D52C-DD89B79A1F02";
 createNode transform -s -n "persp";
 	rename -uid "3385062F-4B02-1174-2A19-E3B7BF6B3BEE";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -26.186776544112 157.58476772173049 103.24341118683486 ;
-	setAttr ".r" -type "double3" -3.6000000000000041 -19.199999999999992 0 ;
+	setAttr ".t" -type "double3" -78.945596403726796 227.16240994355792 207.75524565847627 ;
+	setAttr ".r" -type "double3" -20.399999999999338 -23.599999999999806 8.6771170925483601e-16 ;
 	setAttr ".rpt" -type "double3" -2.2230630767254551e-14 1.1892608523052706e-15 -1.1037571091952787e-14 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "C9175FE8-4451-FC9A-014B-5285459D871E";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 84.957617844583396;
+	setAttr ".coi" 214.91159649728266;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";

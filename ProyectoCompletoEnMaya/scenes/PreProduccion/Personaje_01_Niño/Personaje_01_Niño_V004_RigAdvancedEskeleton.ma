@@ -1,6 +1,6 @@
 //Maya ASCII 2027 scene
-//Name: Personaje_01_Niño_V003.2_RigAdvancedEskeleton.ma
-//Last modified: Tue, Sep 01, 2026 07:53:08 PM
+//Name: Personaje_01_Niño_V004_RigAdvancedEskeleton.ma
+//Last modified: Tue, Sep 01, 2026 10:33:55 PM
 //Codeset: 1252
 requires maya "2027";
 requires -nodeType "HIKSolverNode" -nodeType "HIKCharacterNode" -nodeType "HIKSkeletonGeneratorNode"
@@ -20,11 +20,11 @@ fileInfo "product" "Maya 2027";
 fileInfo "version" "2027";
 fileInfo "cutIdentifier" "202607171511-52c21617ee";
 fileInfo "osv" "Windows 11 Home Single Language v2009 (Build: 26200)";
-fileInfo "UUID" "4D6CB385-4B7C-61DA-66E1-B18F8CC9832F";
+fileInfo "UUID" "6282DAC2-4851-BC88-AF41-7881FE730B07";
 createNode transform -s -n "persp";
 	rename -uid "595B644A-4700-070C-605B-A393462E60F4";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 14.929908240236937 13.575392996406762 20.029838546151524 ;
+	setAttr ".t" -type "double3" 13.334915554494753 12.653204999770775 17.332853202878166 ;
 	setAttr ".r" -type "double3" -16.400000251082695 30.599999999713273 0 ;
 	setAttr ".rp" -type "double3" -5.5511151231257827e-17 -8.8817841970012523e-16 -3.5527136788005009e-15 ;
 	setAttr ".rpt" -type "double3" -1.8966287276506583e-16 -4.2733168846593379e-15 6.1042358873984313e-15 ;
@@ -32,7 +32,7 @@ createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "1B4CAECD-4A7E-A5B5-7A52-C79EA44C3869";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 24.141499563445105;
+	setAttr ".coi" 20.875284274989387;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -131129,56 +131129,62 @@ createNode hikFKJoint -n "QuickRigCharacter5_Ctrl_Head" -p "QuickRigCharacter5_C
 	setAttr ".radi" 0.44378797549013016;
 instanceable -a 0;
 createNode UsdDefaultSettings -n "UsdDefaultRenderSettings";
-	rename -uid "15D47594-478E-16E0-1840-FFB756EDB38C";
+	rename -uid "1F60DFAC-41DA-A2A4-5679-1C9B6EDA3980";
 	setAttr ".srl" -type "string" "#usda 1.0\n(\n    renderSettingsPrimPath = \"/Render/SceneRenderSettings\"\n)\n\ndef Scope \"Render\"\n{\n    def RenderSettings \"SceneRenderSettings\"\n    {\n        custom string adskUsd:externalCamera = \"|persp\" (\n            displayName = \"External Camera\"\n        )\n        rel products = </Render/BeautyProduct>\n    }\n\n    def RenderVar \"color\"\n    {\n        uniform string sourceName = \"color\"\n    }\n\n    def RenderProduct \"BeautyProduct\"\n    {\n        rel orderedVars = </Render/color>\n        token productName = \"./default.png\"\n    }\n}\n\n";
 	setAttr ".ssl" -type "string" "#usda 1.0\n\n";
 	setAttr ".asp" -type "string" "UsdDefaultRenderSettings,/Render/SceneRenderSettings";
 lockNode -l 1 ;
 createNode UsdDefaultSettings -n "UsdDefaultRenderSettings1";
-	rename -uid "564567DD-4918-F797-9573-73907E92C1B7";
+	rename -uid "15D47594-478E-16E0-1840-FFB756EDB38C";
 	setAttr ".srl" -type "string" "#usda 1.0\n(\n    renderSettingsPrimPath = \"/Render/SceneRenderSettings\"\n)\n\ndef Scope \"Render\"\n{\n    def RenderSettings \"SceneRenderSettings\"\n    {\n        custom string adskUsd:externalCamera = \"|persp\" (\n            displayName = \"External Camera\"\n        )\n        rel products = </Render/BeautyProduct>\n    }\n\n    def RenderVar \"color\"\n    {\n        uniform string sourceName = \"color\"\n    }\n\n    def RenderProduct \"BeautyProduct\"\n    {\n        rel orderedVars = </Render/color>\n        token productName = \"./default.png\"\n    }\n}\n\n";
 	setAttr ".ssl" -type "string" "#usda 1.0\n\n";
 	setAttr ".asp" -type "string" "UsdDefaultRenderSettings,/Render/SceneRenderSettings";
 lockNode -l 1 ;
 createNode UsdDefaultSettings -n "UsdDefaultRenderSettings2";
-	rename -uid "B8670280-403C-8601-6857-E195A388BBCB";
+	rename -uid "564567DD-4918-F797-9573-73907E92C1B7";
 	setAttr ".srl" -type "string" "#usda 1.0\n(\n    renderSettingsPrimPath = \"/Render/SceneRenderSettings\"\n)\n\ndef Scope \"Render\"\n{\n    def RenderSettings \"SceneRenderSettings\"\n    {\n        custom string adskUsd:externalCamera = \"|persp\" (\n            displayName = \"External Camera\"\n        )\n        rel products = </Render/BeautyProduct>\n    }\n\n    def RenderVar \"color\"\n    {\n        uniform string sourceName = \"color\"\n    }\n\n    def RenderProduct \"BeautyProduct\"\n    {\n        rel orderedVars = </Render/color>\n        token productName = \"./default.png\"\n    }\n}\n\n";
 	setAttr ".ssl" -type "string" "#usda 1.0\n\n";
 	setAttr ".asp" -type "string" "UsdDefaultRenderSettings,/Render/SceneRenderSettings";
 lockNode -l 1 ;
 createNode UsdDefaultSettings -n "UsdDefaultRenderSettings3";
-	rename -uid "B6429753-47BC-3654-1007-5FA543B27AE9";
+	rename -uid "B8670280-403C-8601-6857-E195A388BBCB";
 	setAttr ".srl" -type "string" "#usda 1.0\n(\n    renderSettingsPrimPath = \"/Render/SceneRenderSettings\"\n)\n\ndef Scope \"Render\"\n{\n    def RenderSettings \"SceneRenderSettings\"\n    {\n        custom string adskUsd:externalCamera = \"|persp\" (\n            displayName = \"External Camera\"\n        )\n        rel products = </Render/BeautyProduct>\n    }\n\n    def RenderVar \"color\"\n    {\n        uniform string sourceName = \"color\"\n    }\n\n    def RenderProduct \"BeautyProduct\"\n    {\n        rel orderedVars = </Render/color>\n        token productName = \"./default.png\"\n    }\n}\n\n";
 	setAttr ".ssl" -type "string" "#usda 1.0\n\n";
 	setAttr ".asp" -type "string" "UsdDefaultRenderSettings,/Render/SceneRenderSettings";
 lockNode -l 1 ;
 createNode UsdDefaultSettings -n "UsdDefaultRenderSettings4";
+	rename -uid "B6429753-47BC-3654-1007-5FA543B27AE9";
+	setAttr ".srl" -type "string" "#usda 1.0\n(\n    renderSettingsPrimPath = \"/Render/SceneRenderSettings\"\n)\n\ndef Scope \"Render\"\n{\n    def RenderSettings \"SceneRenderSettings\"\n    {\n        custom string adskUsd:externalCamera = \"|persp\" (\n            displayName = \"External Camera\"\n        )\n        rel products = </Render/BeautyProduct>\n    }\n\n    def RenderVar \"color\"\n    {\n        uniform string sourceName = \"color\"\n    }\n\n    def RenderProduct \"BeautyProduct\"\n    {\n        rel orderedVars = </Render/color>\n        token productName = \"./default.png\"\n    }\n}\n\n";
+	setAttr ".ssl" -type "string" "#usda 1.0\n\n";
+	setAttr ".asp" -type "string" "UsdDefaultRenderSettings,/Render/SceneRenderSettings";
+lockNode -l 1 ;
+createNode UsdDefaultSettings -n "UsdDefaultRenderSettings5";
 	rename -uid "170F6755-4999-5BA0-A923-278BDEF686B9";
 	setAttr ".srl" -type "string" "#usda 1.0\n(\n    renderSettingsPrimPath = \"/Render/SceneRenderSettings\"\n)\n\ndef Scope \"Render\"\n{\n    def RenderSettings \"SceneRenderSettings\"\n    {\n        custom string adskUsd:externalCamera = \"|persp\" (\n            displayName = \"External Camera\"\n        )\n        rel products = </Render/BeautyProduct>\n    }\n\n    def RenderVar \"color\"\n    {\n        uniform string sourceName = \"color\"\n    }\n\n    def RenderProduct \"BeautyProduct\"\n    {\n        rel orderedVars = </Render/color>\n        token productName = \"./default.png\"\n    }\n}\n\n";
 	setAttr ".ssl" -type "string" "#usda 1.0\n\n";
 	setAttr ".asp" -type "string" "UsdDefaultRenderSettings,/Render/SceneRenderSettings";
 lockNode -l 1 ;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "88EB4E81-4B3C-27D6-95A1-A0A29B84CF0F";
+	rename -uid "B409A9EC-4F4A-BF8E-51A8-0EA3180ADF50";
 	setAttr -s 19 ".lnk";
 	setAttr -s 19 ".slnk";
-createNode UsdDefaultSettings -n "UsdDefaultRenderSettings5";
+createNode UsdDefaultSettings -n "UsdDefaultRenderSettings6";
 	rename -uid "9AF2879B-4262-FEF8-8C54-A9B43ED01FF4";
 	setAttr ".srl" -type "string" "#usda 1.0\n(\n    renderSettingsPrimPath = \"/Render/SceneRenderSettings\"\n)\n\ndef Scope \"Render\"\n{\n    def RenderSettings \"SceneRenderSettings\"\n    {\n        custom string adskUsd:externalCamera = \"|persp\" (\n            displayName = \"External Camera\"\n        )\n        rel products = </Render/BeautyProduct>\n    }\n\n    def RenderVar \"color\"\n    {\n        uniform string sourceName = \"color\"\n    }\n\n    def RenderProduct \"BeautyProduct\"\n    {\n        rel orderedVars = </Render/color>\n        token productName = \"./default.png\"\n    }\n}\n\n";
 	setAttr ".ssl" -type "string" "#usda 1.0\n\n";
 	setAttr ".asp" -type "string" "UsdDefaultRenderSettings,/Render/SceneRenderSettings";
 lockNode -l 1 ;
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "8B896E3D-4146-E82B-7655-4AA4A6B2B899";
+	rename -uid "BCF468D6-4F5D-3653-3247-38856010F203";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "38ED34E8-403D-8ADB-FDDD-4FB0DC273DA0";
+	rename -uid "B27014D1-4FF6-0A4B-475B-77AD40C18B32";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "B09B1520-4274-5B0C-F169-64A3CB7028E6";
+	rename -uid "991D30BB-463F-2FEB-C8F1-E89F22113CD9";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "AA2BEE4F-4900-C68F-72A4-F894611A8ADF";
 	setAttr ".ufem" -type "stringArray" 0  ;
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "AAAD75A9-4D57-ECA5-E3FF-16A3ABC2D728";
+	rename -uid "89993B6C-49C1-4D2E-FFFF-FBACB6767DD8";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "304341A9-4790-8E33-148B-6281914D2E93";
 	setAttr ".g" yes;
@@ -201130,4 +201136,4 @@ connectAttr "file6.msg" ":defaultTextureList1.tx" -na;
 connectAttr "file7.msg" ":defaultTextureList1.tx" -na;
 connectAttr "file8.msg" ":defaultTextureList1.tx" -na;
 connectAttr "file9.msg" ":defaultTextureList1.tx" -na;
-// End of Personaje_01_Niño_V003.2_RigAdvancedEskeleton.ma
+// End of Personaje_01_Niño_V004_RigAdvancedEskeleton.ma

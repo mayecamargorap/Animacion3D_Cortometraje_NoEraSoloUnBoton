@@ -1,0 +1,138 @@
+AdvancedSkeleton License Agreement
+====================================
+
+A straightforward agreement for using AdvancedSkeleton. We keep it simple.
+
+
+1. What You Get
+---------------
+
+When you download or purchase AdvancedSkeleton, you receive a license to
+use the software under the terms below. This applies to both the free
+non-commercial version and paid commercial licenses.
+
+
+2. License Types
+----------------
+
+Free License
+  - For personal, educational, and non-commercial use
+  - Fully functional -- all features included
+  - Not for revenue-generating projects
+
+Freelancer License
+  - For solo operators only
+  - This license is strictly for individuals who work alone -- one person,
+    no employees, no company structure
+  - If you are part of a company, team, or organization with multiple staff,
+    the Studio License is required regardless of how many people actually
+    use the rigging tool
+  - Unlimited installs across all personal machines
+  - Unlimited commercial projects for that individual
+  - May share built rigs with animators who do not have AdvancedSkeleton
+    installed
+  - Not valid for companies, teams, or organizations with multiple employees
+
+Studio License
+  - For any company, studio, or organization with multiple employees
+  - Also for any incorporated business or legal entity
+  - Unlimited users and installs within that location
+  - May share built rigs with freelance and outsource partners
+  - No per-seat fees -- one license covers everyone at that location
+
+Educational License
+  - For accredited schools and universities
+  - All classrooms, labs, students, and faculty
+  - Annual license, renewable each year
+
+
+3. Outsourcing & Partner Studios
+--------------------------------
+
+A common question we get: do my outsource animators need their own license?
+Here is the simple answer:
+
+  - Rigging requires a license. If an affiliate or outsource studio wants
+    to build or modify rigs using AdvancedSkeleton, they need their own
+    license (Freelancer or Studio, depending on their size).
+
+  - Animating does NOT require a license. Once you have built a rig, you
+    can freely share it with freelance animators, outsource partners, or
+    other studios. They can animate with it without installing
+    AdvancedSkeleton -- the rigs work standalone.
+
+  - You can distribute selectors, pose libraries, and rig tools to your
+    team and external partners. Only the person building the rig needs
+    the license.
+
+
+4. What You Can Do
+------------------
+
+  - Use AdvancedSkeleton on any project within your licensed scope
+  - Modify the code to fit your pipeline -- we encourage this
+  - Share built rigs, selectors, and pose libraries with your team,
+    clients, or outsource partners -- they do not need a license to animate
+  - Install on multiple machines you own or control
+  - Receive free updates for the lifetime of your license
+
+
+5. What You Cannot Do
+---------------------
+
+  - Resell, redistribute, or sublicense the software itself
+  - Share your license key or download credentials with others
+  - Use the Freelancer License on behalf of a company or team
+  - Use the software to develop a competing rigging product
+  - Remove or alter copyright notices in the distributed files
+
+
+6. Ownership
+------------
+
+AdvancedSkeleton is owned by AnimationStudios. Your license grants you the
+right to use it -- it does not transfer ownership. You own everything you
+create with it: your rigs, animations, and projects are entirely yours.
+
+
+7. Updates
+----------
+
+Paid licenses include free updates for the lifetime of the product. We will
+notify you of new versions via email and our website. There are no
+subscription fees for one-time purchases.
+
+
+8. Warranty
+-----------
+
+We do our best to make AdvancedSkeleton reliable and useful. However, we
+cannot guarantee it will work perfectly in every environment or with every
+third-party plugin. You use it at your own risk, and we are not liable for
+any issues arising from its use.
+
+
+9. Support
+----------
+
+Commercial license holders receive priority email support. Free users have
+access to documentation, tutorials, and community forums. We aim to respond
+within 2 business days.
+
+
+10. Changes
+-----------
+
+We may update this agreement from time to time. Changes will be posted on
+our website with a revised date. Continued use of the software after
+changes means you accept the updated terms.
+
+
+11. Questions
+-------------
+
+If you have any questions about this agreement, please email us at:
+support@animationstudios.com.au
+
+
+Last updated: May 13, 2026

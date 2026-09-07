@@ -1,0 +1,15 @@
+AdvancedSkeletonUnreal Plugin
+Version: 0.2.8
+Build date: 08/31/2026
+Target Unreal Version: 5.8
+Platform: Windows / Win64
+
+Install:
+1. In Unreal choose: Edit > Plugins.
+2. Click Plugin Directories.
+3. Add the UE_5.8 folder that contains AdvancedSkeletonUnreal.
+4. Restart Unreal Editor.
+
+Notes:
+- This package is built for Unreal 5.8 on Windows.
+- Python script is embedded in the plugin binary; no external Python file is needed.

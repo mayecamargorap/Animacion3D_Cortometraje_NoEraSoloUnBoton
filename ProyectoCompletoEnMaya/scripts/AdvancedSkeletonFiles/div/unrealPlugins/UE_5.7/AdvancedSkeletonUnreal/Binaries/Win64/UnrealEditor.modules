@@ -1,0 +1,8 @@
+{
+	"BuildId": "47537391",
+	"Modules": 
+	{
+		"AdvancedSkeletonUnreal": "UnrealEditor-AdvancedSkeletonUnreal.dll",
+		"AdvancedSkeletonUnrealEditor": "UnrealEditor-AdvancedSkeletonUnrealEditor.dll"
+	}
+}

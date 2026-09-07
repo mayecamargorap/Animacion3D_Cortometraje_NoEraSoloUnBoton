@@ -1,0 +1,29 @@
+{
+    "FileVersion": 3,
+    "Version": 9,
+    "VersionName": "0.2.8",
+    "FriendlyName": "AdvancedSkeletonUnreal",
+    "Description": "AdvancedSkeleton tools for Unreal import, rig setup, and retargeting.",
+    "Category": "Animation",
+    "CreatedBy": "AdvancedSkeleton",
+    "EnabledByDefault": true,
+    "CanContainContent": false,
+    "Modules": [
+        {
+            "Name": "AdvancedSkeletonUnreal",
+            "Type": "Runtime",
+            "LoadingPhase": "Default"
+        },
+        {
+            "Name": "AdvancedSkeletonUnrealEditor",
+            "Type": "Editor",
+            "LoadingPhase": "Default"
+        }
+    ],
+    "Plugins": [
+        {
+            "Name": "ControlRig",
+            "Enabled": true
+        }
+    ]
+}
